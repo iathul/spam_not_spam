@@ -1,0 +1,22 @@
+{
+  "name": "spam_not_spam",
+  "version": "1.0.0",
+  "description": "Detect spam words in sentence.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iathul/spam_not_spam.git"
+  },
+  "author": "Athul Joy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iathul/spam_not_spam/issues"
+  },
+  "homepage": "https://github.com/iathul/spam_not_spam#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
