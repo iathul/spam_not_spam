@@ -32,7 +32,10 @@ body {
   p {
     color: #cdcdcd;
   }
-  
+  a {
+    color: #cdcdcd;
+    text-decoration: none;
+  }
   iframe {
     display: block;
     padding: 15px 0;
