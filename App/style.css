@@ -1,0 +1,131 @@
+/* CSS files add styling rules to your content */
+body {
+    background: #212121;
+    color: #fff;
+    font-family: helvetica, arial, sans-serif;
+  }
+  
+  header {
+    background: linear-gradient(0deg, rgba(7,7,7,1) 0%, rgba(7,7,7,1) 85%, rgba(55,52,54,1) 100%);
+    min-height: 30px;
+    overflow: hidden;
+  }
+  
+  h1 {
+    color: #f0821b;
+    font-size: 24pt;
+    padding: 15px 25px;
+    display: inline-block;
+    float: left;
+  }
+  
+  h2, p, section, iframe {
+    background: #212121;
+    padding: 10px 25px;
+  }
+  
+  h2 {
+    font-size: 16pt;
+    padding-top: 25px;
+  }
+  
+  p {
+    color: #cdcdcd;
+  }
+  
+  iframe {
+    display: block;
+    padding: 15px 0;
+  }
+  
+  header a, button {
+    color: #222;
+    padding: 7px;
+    min-width: 100px;
+    background: rgb(240, 130, 30);
+    border-radius: 3px;
+    border: 1px solid #3d3d3d;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 300ms ease-in-out;
+  }
+  
+  header a {
+    background: #efefef;
+    float: right;
+    margin: 15px 25px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  button:focus, button:hover, header a:hover {
+    background: rgb(260, 150, 50);
+  }
+  
+  .comment {
+    background: #212121;
+    border: none;
+    border-bottom: 1px solid #888;
+    color: #fff;
+    min-height: 25px;
+    display: block;
+    padding: 5px;
+  }
+  
+  .comments button {
+    float: right;
+    margin: 5px 0;
+  }
+  
+  .comments button, .comment {
+    transition: opacity 500ms ease-in-out;
+  }
+  
+  .comments ul {
+    clear: both;
+    margin-top: 60px;
+  }
+  
+  .comments ul li {
+    margin-top: 5px;
+    padding: 10px;
+    transition: background 500ms ease-in-out;
+  }
+  
+  .comments ul li * {
+    background: transparent;
+  }
+  
+  .comments ul li:nth-child(1) {
+    background: #313131;
+  }
+  
+  .comments ul li:hover {
+    background: rgb(70, 60, 10);
+  }
+  
+  .username, .timestamp {
+    font-size: 80%;
+    margin-right: 5px;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .processing {
+    opacity: 0.3;
+    filter: grayscale(1);
+  }
+  
+  .comments ul li.spam {
+    background-color: #d32f2f;
+  }
+  
+  .comments ul li.spam::after {
+    content: "⚠";
+    margin: -17px 2px;
+    zoom: 3;
+    float: right;
+  }
